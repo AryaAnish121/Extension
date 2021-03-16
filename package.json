@@ -1,0 +1,29 @@
+{
+    "name": "snippet",
+    "displayName": "snippet",
+    "description": "Simple extension",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AryaAnish121/frontendmentor.github.io"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
